@@ -1,0 +1,92 @@
+{
+  "app": {
+    "title": "Star Wars universe explorer",
+    "description": "Discover characters, movies, planets and more from the Star Wars universe",
+    "toggleLanguage": "Mudar para Português"
+  },
+  "search": {
+    "placeholder": "Search the Star Wars universe...",
+    "filters": "Filters",
+    "clearFilters": "Clear",
+    "toggleFilters": "Toggle filters",
+    "noResults": "No results found for the selected filters.",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "resources": {
+    "people": "Characters",
+    "films": "Films",
+    "planets": "Planets",
+    "species": "Species",
+    "vehicles": "Vehicles",
+    "starships": "Starships"
+  },
+  "filters": {
+    "any": "Any"
+  },
+  "details": {
+    "viewDetails": "View details",
+    "loading": "Loading..."
+  },
+  "fields": {
+    "name": "Name",
+    "title": "Title",
+    "height": "Height",
+    "mass": "Mass",
+    "hair_color": "Hair color",
+    "skin_color": "Skin color",
+    "eye_color": "Eye color",
+    "hair_colors": "Hair color",
+    "skin_colors": "Skin color",
+    "eye_colors": "Eye color",
+    "birth_year": "Birth year",
+    "gender": "Gender",
+    "director": "Director",
+    "producer": "Producer",
+    "release_date": "Release date",
+    "climate": "Climate",
+    "terrain": "Terrain",
+    "population": "Population",
+    "diameter": "Diameter",
+    "rotation_period": "Rotation period",
+    "orbital_period": "Orbital period",
+    "classification": "Classification",
+    "designation": "Designation",
+    "average_height": "Average height",
+    "language": "Language",
+    "model": "Model",
+    "manufacturer": "Manufacturer",
+    "cost_in_credits": "Cost in credits",
+    "length": "Length",
+    "max_atmosphering_speed": "Max atmosphering speed",
+    "crew": "Crew",
+    "passengers": "Passengers",
+    "cargo_capacity": "Cargo capacity",
+    "consumables": "Consumables",
+    "starship_class": "Starship class",
+    "vehicle_class": "Vehicle class",
+    "opening_crawl": "Opening crawl",
+    "homeworld": "Homeworld",
+    "surface_water": "Surface water",
+    "gravity": "Gravity",
+    "hyperdrive_rating": "Hiperdrive rating",
+    "MGLT": "MGLT (Megalight per Hour)",
+    "average_lifespan": "Average lifespan",
+    "people": "Characters",
+    "films": "Films",
+    "planets": "Planets",
+    "species": "Species",
+    "vehicles": "Vehicles",
+    "starships": "Starships",
+    "characters": "Characters",
+    "showMore": "Show More"
+  },
+  "LocaleSwitcher": {
+    "pt": "Portuguese",
+    "en": "English",
+    "label": "Language"
+  },
+  "footer": {
+    "copyright": "All rights reserved"
+  }
+}

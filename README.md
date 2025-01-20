@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Star Wars Universe Explorer
 
-## Getting Started
+## Visão Geral do Projeto
 
-First, run the development server:
+**Star Wars Hub** é uma aplicação web que permite aos usuários explorar e descobrir informações sobre vários elementos do universo Star Wars. Construída com **Next.js 15**, **Shadcn UI** e **Tailwind CSS**, esta aplicação fornece uma interface interativa e responsiva para navegar por personagens, filmes, planetas, espécies, veículos e naves da saga Star Wars.
+
+**[Acesse a Demo ao Vivo](https://starwarshub.vercel.app/)**
+
+---
+
+## Funcionalidades
+
+- **Exploração Completa**: Navegue por personagens, filmes, planetas, espécies, veículos e naves.
+- **Busca Global**: Pesquise em todas as categorias de forma integrada.
+- **Visualizações Detalhadas**: Veja informações detalhadas de cada item, incluindo recursos relacionados.
+- **Design Responsivo**: Funciona perfeitamente em dispositivos móveis e desktop.
+- **Modo Escuro**: Alterne entre temas claro e escuro.
+- **Internacionalização (i18n)**: Suporte a idiomas em inglês e português.
+- **Fundo Interativo**: Animações com partículas para maior imersão.
+
+---
+
+## Pré-requisitos
+
+Antes de começar, certifique-se de ter os seguintes requisitos instalados em seu sistema:
+
+- **Node.js**: Versão 14 ou superior (recomendado: 18+)
+- **npm** ou **yarn**: Versão 6 ou superior
+- **Git**: Para clonar o repositório
+
+---
+
+## Instalação e Execução
+
+Siga os passos abaixo para configurar e executar o projeto localmente:
+
+### 1. Clone o repositório
+
+Abra o terminal e execute:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/joaoolivio/starwarshub.git
+```
+### 2. Acesse a pasta do projeto
+
+```bash
+cd hunterstack
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Instale as dependências
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Utilizando npm:
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Execute o servidor de desenvolvimento
 
-## Learn More
+Para iniciar o ambiente de desenvolvimento:
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Abra o navegador e acesse: http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 5. Testes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O projeto utiliza Jest para testes. Para executar os testes, use:
+```bash
+npm test
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tecnologias Utilizadas
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **[Next.js](https://nextjs.org/):** Framework React para renderização no servidor.
+- **[TypeScript](https://www.typescriptlang.org/):** Tipagem estática.
+- **[Tailwind CSS](https://tailwindcss.com/):** Framework CSS utilitário.
+- **[Jest](https://jestjs.io/):** Framework de testes.
+- **[React Testing Library](https://testing-library.com/):** Para testes de componentes React.
+
+
