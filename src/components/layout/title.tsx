@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 
-export default async function Title() {
+export default function Title() {
   const t = useTranslations();
 
   return (
